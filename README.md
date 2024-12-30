@@ -19,7 +19,7 @@ The Literary Clock pulls quotes from a JSON database and displays them on an e-i
 ## Requirements
 
 - Python 3.x
-- Papirus e-ink display
+- Papirus e-ink display and related packages (see [PaPiRus installation guide](https://github.com/PiSupply/PaPiRus?tab=readme-ov-file))
 - Required Python packages:
   - `papirus`
   - Additional standard libraries: `datetime`, `json`, `os`, `random`, `time`
@@ -98,9 +98,12 @@ Feel free to contribute to this project by:
 
 ## License
 
-[Add your chosen license here]
+MIT License
+
+Copyright (c) 2024
 
 ## Acknowledgments
 
 - Built using the Papirus e-ink display library
 - Inspired by literary timepieces and book lovers everywhere
+- Based on the original concept from [literature-clock](https://github.com/docPhil99/literature-clock)
