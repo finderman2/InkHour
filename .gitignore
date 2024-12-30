@@ -1,12 +1,17 @@
-macOS system files
+# macOS System Files
+# Desktop Service Store files created by macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-Icon must end with two \r
+
+# Must end with two \r to properly handle Icon files on macOS
 Icon
-Thumbnails
+
+# Thumbnail cache files
 ._*
-Files that might appear in the root of a volume
+
+# Files created by macOS in root of volumes
+# These are used for various system functions and backups
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -14,17 +19,25 @@ Files that might appear in the root of a volume
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-Directories potentially created on remote AFP share
+
+# AFP (Apple Filing Protocol) share files
+# These might appear when connecting to remote file systems
 .AppleDB
 .AppleDesktop
 Network Trash Folder
 Temporary Items
 .apdisk
-Python
-pycache/
+
+# Python Files
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -41,19 +54,21 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-Virtual Environment
+
+# Virtual Environment
+# Various virtual environment naming conventions
 venv/
 ENV/
 env/
 .env
 .venv
-IDEs and editors
+
+# IDE and Editor Files
+# PyCharm
 .idea/
+# Visual Studio Code
 .vscode/
+# Vim swap files
 *.swp
 *.swo
-*~
-Project specific
-*.log
-output/
-data/
+# Back
